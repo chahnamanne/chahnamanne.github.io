@@ -87,8 +87,8 @@ color: whitesmoke;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  height: 400px;
-  padding-top: 40px;
+  height: 300px;
+  padding-top: 150px;
 }
 
 .strengths h1{
@@ -96,7 +96,6 @@ color: whitesmoke;
   font-size: 40px;
   text-align: center;
   color: #e83557;
-  padding-top: 100px;
 }
 
 .strengths h2{
@@ -115,8 +114,9 @@ color: whitesmoke;
 .hobbies{
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 90%;
   height: 300px;
+  text-align: center;
 }
 
 
@@ -134,8 +134,6 @@ color: whitesmoke;
 
 .hobbies li{
 border:solid 1px #e83557;
-margin-left: 65px;
-top:50px;
 -webkit-transition:all 1s ease;
 -moz-transition:all 1s ease;
 -o-transition:all 1s ease;
@@ -165,8 +163,9 @@ color: whitesmoke;
 .language{
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 90%;
   height: 300px;
+  text-align: center;
 }
 
 
@@ -185,8 +184,6 @@ color: whitesmoke;
 
 .language li{
 border:solid 1px #e83557;
-margin-left: 65px;
-top:50px;
 -webkit-transition:all 1s ease;
 -moz-transition:all 1s ease;
 -o-transition:all 1s ease;
@@ -210,24 +207,18 @@ margin:-1px 0 0 0;
 color: whitesmoke;
 }
 
-
-
-
-
-
-
-
 /* ----------------------------------- */
-
 footer{
-  height: 150px;
   background-color:#e83557;
 }
 
 .soc img{
   height: 50px;
-  width: 50px;
   color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 10px;
 }
 
 .soc h2, h4{
@@ -239,18 +230,47 @@ footer{
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 80%;
   text-align: center;
-
+  padding-bottom: 20px;
 }
 .grid-item {
   font-size: 30px;
   text-align: center;
-  padding-left: 40px;
-  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .grid-item a{
   color: whitesmoke;
   text-decoration: none;
+}
+
+.grid-item a:hover {
+  opacity: 0.5;
+  color:#61d0d4;
+}
+
+.grid-item3 {
+  font-size: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.grid-item3 a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.grid-item3 a img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+.grid-item3 a:hover {
+  opacity: 0.5;
+  color:#61d0d4;
 }
