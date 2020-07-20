@@ -170,14 +170,16 @@ main{
 
 /* ----------------------------- */
 footer{
-  height: 150px;
   background-color:#e83557;
 }
 
 .soc img{
   height: 50px;
-  width: 50px;
   color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 10px;
 }
 
 .soc h2, h4{
@@ -189,18 +191,47 @@ footer{
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 80%;
   text-align: center;
-
+  padding-bottom: 20px;
 }
 .grid-item {
   font-size: 30px;
   text-align: center;
-  padding-left: 40px;
-  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .grid-item a{
   color: whitesmoke;
   text-decoration: none;
+}
+
+.grid-item a:hover {
+  opacity: 0.5;
+  color:#61d0d4;
+}
+
+.grid-item3 {
+  font-size: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.grid-item3 a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.grid-item3 a img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+.grid-item3 a:hover {
+  opacity: 0.5;
+  color:#61d0d4;
 }
